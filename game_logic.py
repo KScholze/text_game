@@ -63,7 +63,7 @@ def bewegen(eingabe):
 
 def ereignis():
 
-    # Unterfunktion fight() (Funktion in der Funktion ereignis())
+    # Unterfunktion kaempfen() (Funktion in der Funktion ereignis())
     def kaempfen():
 
         ereignis_wahrscheinlichkeit = random.randint(1, 3)
@@ -112,8 +112,6 @@ def ereignis():
                         continue
         spiel()
 
-
-    # Unterfunktion weapon() (Funktion in der Funktion ereignis())
     def waffe_gefunden():
         print("Du hast eine neue Waffe gefunden.")
         waffen_index = random.randint(0, len(waffen) - 1)
